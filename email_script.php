@@ -7,6 +7,6 @@ $message=$_POST['contactMessage'];
 
 mail($email, $subject, $message, "From: ",$from);
 
-print "Your message has been sent: </br>$email</br>$subject</br>$message;
+print "Your message has been sent: </br>$email</br>$subject</br>$message";
 
->?
+?>
